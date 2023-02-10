@@ -1,0 +1,21 @@
+{
+  "name": "pcd-main-theme",
+  "displayName": "pcd_main_theme",
+  "description": "PCD Main Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PCD Main Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PCD Main Dark-color-theme.json"
+      }
+    ]
+  }
+}
